@@ -1,7 +1,6 @@
 {
   "name": "test_new_gulp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +24,14 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.69.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillShustaev/gift_shop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KirillShustaev/gift_shop/issues"
+  },
+  "homepage": "https://github.com/KirillShustaev/gift_shop#readme",
+  "description": ""
 }

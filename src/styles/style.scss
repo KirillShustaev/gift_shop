@@ -3,3 +3,41 @@
 @import "settings";
 
 @import "mixin";
+
+.container {
+  padding-inline: min(6.25vw, 120px);
+}
+
+.hero {
+  padding-block: min(2.40vw, 46px) min(3.13vw, 60px);
+
+  &__main {
+    @include back_img;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    min-height: min(23.18vw, 445px);
+    padding: min(3.13vw, 60px);
+    border-radius: min(.52vw, 10px);
+    background-image: url(../img/hero.jpg);
+  }
+
+  & h1 {
+    max-width: 50%;
+    margin-bottom: min(.78vw, 15px);
+    font-size: min(3.13vw, 60px);
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    color: #ffffff;
+  }
+
+  & p {
+    max-width: 40%;
+    font-size: min(1.04vw, 20px);
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color: #ffffff;
+  }
+}
